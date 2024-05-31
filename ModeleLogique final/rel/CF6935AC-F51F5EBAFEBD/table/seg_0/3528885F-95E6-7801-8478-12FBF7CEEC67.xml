@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3528885F-95E6-7801-8478-12FBF7CEEC67" schemaObject="F649FD61-2C9A-B0E4-DC37-1B0C853B7395" name="MANGA">
+<sourceConnName>VM_restscott@orcl</sourceConnName>
+<sourceObjSchema>RESTSCOTT</sourceObjSchema>
+<sourceObjName>MANGA</sourceObjName>
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="9586D489-CF24-DE3C-C7E9-0C48EBAF440A">
+<sourceConnName>VM_restscott@orcl</sourceConnName>
+<sourceObjSchema>MANGA</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITRE" id="8EFADD94-B10C-1179-022A-D28F65E85EED">
+<sourceConnName>VM_restscott@orcl</sourceConnName>
+<sourceObjSchema>MANGA</sourceObjSchema>
+<sourceObjName>TITRE</sourceObjName>
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUTEUR_ID" id="2F5BFD7D-EEDA-CB1F-229A-7420A0C26179">
+<sourceConnName>VM_restscott@orcl</sourceConnName>
+<sourceObjSchema>MANGA</sourceObjSchema>
+<sourceObjName>AUTEUR_ID</sourceObjName>
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D3D42CB-F1A1-4EF0-755A-27AB5B77C713" referredColumn="C9BE04D1-9C30-4B89-5E7E-2A306AA25379"/>
+</associations>
+</Column>
+<Column name="SERIE_ID" id="64589C56-525E-4E4E-E5EE-080430A07DEB">
+<sourceConnName>VM_restscott@orcl</sourceConnName>
+<sourceObjSchema>MANGA</sourceObjSchema>
+<sourceObjName>SERIE_ID</sourceObjName>
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C64D0A9C-EEAC-B588-A51E-F5283D0AAA28" referredColumn="F9A55F81-815F-B75E-00CD-2ADBD2A4B71F"/>
+</associations>
+</Column>
+<Column name="PRIX" id="6018C8FE-2A95-3076-908D-5F8202A3A7B3">
+<sourceConnName>VM_restscott@orcl</sourceConnName>
+<sourceObjSchema>MANGA</sourceObjSchema>
+<sourceObjName>PRIX</sourceObjName>
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="AEBDC0EC-F00C-1BC2-6093-584C69754BD4">
+<sourceConnName>VM_restscott@orcl</sourceConnName>
+<sourceObjSchema>MANGA</sourceObjSchema>
+<sourceObjName>DESCRIPTION</sourceObjName>
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_PUBLICATION" id="3D66B764-01EC-2B63-8AA9-A80E1C0901FB">
+<sourceConnName>VM_restscott@orcl</sourceConnName>
+<sourceObjSchema>MANGA</sourceObjSchema>
+<sourceObjName>DATE_PUBLICATION</sourceObjName>
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="18999515-173A-ABCE-6334-E520CD539C51" schemaObject="F649FD61-2C9A-B0E4-DC37-1B0C853B7395" name="MANGA_PK">
+<sourceConnName>VM_restscott@orcl</sourceConnName>
+<sourceObjSchema>RESTSCOTT</sourceObjSchema>
+<sourceObjName>SYS_C0013066</sourceObjName>
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9586D489-CF24-DE3C-C7E9-0C48EBAF440A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01F94330-A816-8BDD-6D6D-21B902699F8D" name="MANGA_AUTEUR_FK">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:05 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F5BFD7D-EEDA-CB1F-229A-7420A0C26179"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83B846F1-4BE4-2999-BB27-CF7558EAC640" name="MANGA_SERIE_FK">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:05 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64589C56-525E-4E4E-E5EE-080430A07DEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

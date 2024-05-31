@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0CBC0F68-19D9-970B-1838-39F764547827" name="AUTEUR">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 02:26:44 UTC</createdTime>
+<generatorID>A59EA1A0-336B-8D68-BFC9-BFC361BF8494</generatorID>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<engineerTo>
+<item key="CF6935AC-1536-4301-D71A-F51F5EBAFEBD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="5AD79340-A23D-9183-7457-73B6692578F4">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 02:26:44 UTC</createdTime>
+<generatorID>C9BE04D1-9C30-4B89-5E7E-2A306AA25379</generatorID>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<engineerTo>
+<item key="CF6935AC-1536-4301-D71A-F51F5EBAFEBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOM" id="C5324139-0C99-42B6-D662-9D3D055B2BD3">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 02:26:44 UTC</createdTime>
+<generatorID>18091AA7-ED29-6B13-BD90-D6E48D9D9F86</generatorID>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<engineerTo>
+<item key="CF6935AC-1536-4301-D71A-F51F5EBAFEBD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRENOM" id="C586EB0F-3B17-6CB1-E6E5-4D7C5985112D">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 02:26:44 UTC</createdTime>
+<generatorID>1F4F752C-77AB-99D3-89CB-FE554F1091CA</generatorID>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<engineerTo>
+<item key="CF6935AC-1536-4301-D71A-F51F5EBAFEBD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="98DE8ECB-CB3A-B472-8630-68DD9D24E1BF" name="AUTEUR PK">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 02:26:44 UTC</createdTime>
+<generatorID>0FE84650-8435-F547-57C7-9BF73F0FE7D4</generatorID>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="CF6935AC-1536-4301-D71A-F51F5EBAFEBD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5AD79340-A23D-9183-7457-73B6692578F4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

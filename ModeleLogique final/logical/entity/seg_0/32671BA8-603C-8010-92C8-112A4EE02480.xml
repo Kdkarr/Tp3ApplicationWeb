@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="32671BA8-603C-8010-92C8-112A4EE02480" name="PANIER">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 02:26:44 UTC</createdTime>
+<generatorID>38B4BE52-2C4D-FE91-E0E4-4269CFF4E0AD</generatorID>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<engineerTo>
+<item key="CF6935AC-1536-4301-D71A-F51F5EBAFEBD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Panier_id" id="4C5461B8-D7FD-F4B0-8D5C-D6AB8EF33EE3">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 02:26:44 UTC</createdTime>
+<generatorID>D7DF420B-606C-9DB7-A682-D2CEAE055D50</generatorID>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<engineerTo>
+<item key="CF6935AC-1536-4301-D71A-F51F5EBAFEBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,*,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MANGA ID" id="C5BD071E-B609-646C-03B9-AD5F8D5328B5">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 02:26:44 UTC</createdTime>
+<generatorID>CA6F3A14-38FD-C2A3-036E-7A40F0D57CDF</generatorID>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<engineerTo>
+<item key="CF6935AC-1536-4301-D71A-F51F5EBAFEBD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9A0F81E5-CC42-5D5D-94E9-04DB46E8CE3D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ETUDIANT ETUDIANTID" id="10315417-2319-2D77-6C8A-F25E2D1E477E">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 02:26:44 UTC</createdTime>
+<generatorID>4D8B73CA-1C69-8D25-EADC-2E68C6EAE438</generatorID>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<engineerTo>
+<item key="CF6935AC-1536-4301-D71A-F51F5EBAFEBD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D90A34AC-6DFA-AE43-15FB-659C086152A5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Quantite" id="EDE4BD24-D4F0-1007-D0C0-BA9BB1DF764B">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 03:41:26 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<engineerTo>
+<item key="CF6935AC-1536-4301-D71A-F51F5EBAFEBD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="77C31645-C403-CD49-1811-40E1580C1E93" name="PANIER PK">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 02:26:44 UTC</createdTime>
+<generatorID>9719226E-C833-2480-6D98-30E1E7A52C91</generatorID>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="CF6935AC-1536-4301-D71A-F51F5EBAFEBD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4C5461B8-D7FD-F4B0-8D5C-D6AB8EF33EE3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

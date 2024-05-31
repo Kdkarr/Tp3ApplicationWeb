@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC6B8204-3E10-20EA-985A-36BA9B7628DA" schemaObject="F649FD61-2C9A-B0E4-DC37-1B0C853B7395" name="SERIE">
+<sourceConnName>VM_restscott@orcl</sourceConnName>
+<sourceObjSchema>RESTSCOTT</sourceObjSchema>
+<sourceObjName>SERIE</sourceObjName>
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="F9A55F81-815F-B75E-00CD-2ADBD2A4B71F">
+<sourceConnName>VM_restscott@orcl</sourceConnName>
+<sourceObjSchema>SERIE</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITRE" id="4710CC88-0E62-FC7E-A47F-2559403A68F2">
+<sourceConnName>VM_restscott@orcl</sourceConnName>
+<sourceObjSchema>SERIE</sourceObjSchema>
+<sourceObjName>TITRE</sourceObjName>
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3AD459F-29C8-3DEB-60D7-B9F97BB217D0" schemaObject="F649FD61-2C9A-B0E4-DC37-1B0C853B7395" name="SERIE_PK">
+<sourceConnName>VM_restscott@orcl</sourceConnName>
+<sourceObjSchema>RESTSCOTT</sourceObjSchema>
+<sourceObjName>SYS_C0013065</sourceObjName>
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9A55F81-815F-B75E-00CD-2ADBD2A4B71F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38B4BE52-2C4D-FE91-E0E4-4269CFF4E0AD" schemaObject="F649FD61-2C9A-B0E4-DC37-1B0C853B7395" name="PANIER">
+<sourceConnName>VM_restscott@orcl</sourceConnName>
+<sourceObjSchema>RESTSCOTT</sourceObjSchema>
+<sourceObjName>PANIER</sourceObjName>
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="D7DF420B-606C-9DB7-A682-D2CEAE055D50">
+<sourceConnName>VM_restscott@orcl</sourceConnName>
+<sourceObjSchema>PANIER</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MANGA_ID" id="19767325-6C41-C521-09E1-169D8FC14968">
+<sourceConnName>VM_restscott@orcl</sourceConnName>
+<sourceObjSchema>PANIER</sourceObjSchema>
+<sourceObjName>PRODUIT_ID</sourceObjName>
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0368E4F-A27F-A580-9F7B-3B2A6A836579" referredColumn="9586D489-CF24-DE3C-C7E9-0C48EBAF440A"/>
+</associations>
+</Column>
+<Column name="ETUDIANT_ETUDIANTID" id="81D1A7B1-41E5-52F2-645D-1A4D06192816">
+<sourceConnName>VM_restscott@orcl</sourceConnName>
+<sourceObjSchema>PANIER</sourceObjSchema>
+<sourceObjName>UTILISATEUR_ID</sourceObjName>
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EB9DF79-569A-BC5D-0E02-AF6D62CA119C" referredColumn="10DBE436-501C-C6AC-D0EF-E811F86D5736"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9719226E-C833-2480-6D98-30E1E7A52C91" schemaObject="F649FD61-2C9A-B0E4-DC37-1B0C853B7395" name="PANIER_PK">
+<sourceConnName>VM_restscott@orcl</sourceConnName>
+<sourceObjSchema>RESTSCOTT</sourceObjSchema>
+<sourceObjName>SYS_C0013070</sourceObjName>
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7DF420B-606C-9DB7-A682-D2CEAE055D50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A10E12F-9FD1-A713-CB32-52EC503DAD30" name="PANIER_MANGA_FK">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:05 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19767325-6C41-C521-09E1-169D8FC14968"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B051C87B-B415-0F70-3916-47A72547F489" name="PANIER_ETUDIANT_FK">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:05 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81D1A7B1-41E5-52F2-645D-1A4D06192816"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

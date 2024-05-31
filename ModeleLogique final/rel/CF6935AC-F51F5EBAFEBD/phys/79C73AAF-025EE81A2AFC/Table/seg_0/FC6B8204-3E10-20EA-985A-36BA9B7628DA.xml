@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="SERIE" directorySegmentName="seg_0" id="FC6B8204-3E10-20EA-985A-36BA9B7628DA">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<schemaObject>F649FD61-2C9A-B0E4-DC37-1B0C853B7395</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BC94923D-73BD-4BAA-76ED-E9285D600679</segment>
+<tableSpace>3B24C378-31BF-8311-A2EF-B7D3602ACFF5</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TITRE" id="4710CC88-0E62-FC7E-A47F-2559403A68F2">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="F9A55F81-815F-B75E-00CD-2ADBD2A4B71F">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SERIE_PK" id="E3AD459F-29C8-3DEB-60D7-B9F97BB217D0">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:04 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<schemaObject>F649FD61-2C9A-B0E4-DC37-1B0C853B7395</schemaObject>
+<segment>76D23DAF-19B1-D4CF-A5DC-F5CE4A86484C</segment>
+<tableSpace>3B24C378-31BF-8311-A2EF-B7D3602ACFF5</tableSpace>
+<indexSegment>76D23DAF-19B1-D4CF-A5DC-F5CE4A86484C</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

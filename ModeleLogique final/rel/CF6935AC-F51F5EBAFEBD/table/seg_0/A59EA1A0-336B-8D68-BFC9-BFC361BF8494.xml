@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A59EA1A0-336B-8D68-BFC9-BFC361BF8494" schemaObject="F649FD61-2C9A-B0E4-DC37-1B0C853B7395" name="AUTEUR">
+<sourceConnName>VM_restscott@orcl</sourceConnName>
+<sourceObjSchema>RESTSCOTT</sourceObjSchema>
+<sourceObjName>AUTEUR</sourceObjName>
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="C9BE04D1-9C30-4B89-5E7E-2A306AA25379">
+<sourceConnName>VM_restscott@orcl</sourceConnName>
+<sourceObjSchema>AUTEUR</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOM" id="18091AA7-ED29-6B13-BD90-D6E48D9D9F86">
+<sourceConnName>VM_restscott@orcl</sourceConnName>
+<sourceObjSchema>AUTEUR</sourceObjSchema>
+<sourceObjName>NOM</sourceObjName>
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRENOM" id="1F4F752C-77AB-99D3-89CB-FE554F1091CA">
+<sourceConnName>VM_restscott@orcl</sourceConnName>
+<sourceObjSchema>AUTEUR</sourceObjSchema>
+<sourceObjName>PRENOM</sourceObjName>
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0FE84650-8435-F547-57C7-9BF73F0FE7D4" schemaObject="F649FD61-2C9A-B0E4-DC37-1B0C853B7395" name="AUTEUR_PK">
+<sourceConnName>VM_restscott@orcl</sourceConnName>
+<sourceObjSchema>RESTSCOTT</sourceObjSchema>
+<sourceObjName>SYS_C0013064</sourceObjName>
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9BE04D1-9C30-4B89-5E7E-2A306AA25379"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

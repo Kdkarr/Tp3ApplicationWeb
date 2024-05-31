@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="RESTSCOTT" directorySegmentName="seg_0" id="5576083B-7C48-A58B-F07F-356F5FCC4682">
+<sourceConnName>VM_restscott@orcl</sourceConnName>
+<sourceObjName>RESTSCOTT</sourceObjName>
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<schemaObject>F649FD61-2C9A-B0E4-DC37-1B0C853B7395</schemaObject>
+</UserOraclev10g>

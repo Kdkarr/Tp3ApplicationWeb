@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PANIER MANGA FK" directorySegmentName="seg_0" id="CA6F3A14-38FD-C2A3-036E-7A40F0D57CDF">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 02:26:44 UTC</createdTime>
+<generatorID>B0368E4F-A27F-A580-9F7B-3B2A6A836579</generatorID>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<engineerTo>
+<item key="CF6935AC-1536-4301-D71A-F51F5EBAFEBD" value="true"/>
+</engineerTo>
+<sourcePk>DD572DCA-3B69-20C3-4719-5019ECABFE08</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Contient le produit</nameOnSource>
+<nameOnTarget>Produit ajouté au panier</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2829772C-DC91-3DC2-746C-C128DCF46E5F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>32671BA8-603C-8010-92C8-112A4EE02480</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

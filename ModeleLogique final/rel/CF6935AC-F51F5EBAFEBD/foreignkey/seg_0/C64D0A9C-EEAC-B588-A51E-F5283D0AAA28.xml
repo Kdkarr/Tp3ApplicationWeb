@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C64D0A9C-EEAC-B588-A51E-F5283D0AAA28" containerWithKeyObject="3528885F-95E6-7801-8478-12FBF7CEEC67" localFKIndex="83B846F1-4BE4-2999-BB27-CF7558EAC640" name="MANGA_SERIE_FK">
+<sourceConnName>VM_restscott@orcl</sourceConnName>
+<sourceObjSchema>RESTSCOTT</sourceObjSchema>
+<sourceObjName>FK_MANGA_SERIE</sourceObjName>
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:05 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<referredTableLongName>RESTSCOTT.SERIE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FC6B8204-3E10-20EA-985A-36BA9B7628DA</referredTableID>
+<keyObject>E3AD459F-29C8-3DEB-60D7-B9F97BB217D0</keyObject>
+<referredKeyID>E3AD459F-29C8-3DEB-60D7-B9F97BB217D0</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B0368E4F-A27F-A580-9F7B-3B2A6A836579" containerWithKeyObject="38B4BE52-2C4D-FE91-E0E4-4269CFF4E0AD" localFKIndex="4A10E12F-9FD1-A713-CB32-52EC503DAD30" name="PANIER_MANGA_FK">
+<sourceConnName>VM_restscott@orcl</sourceConnName>
+<sourceObjSchema>RESTSCOTT</sourceObjSchema>
+<sourceObjName>SYS_C0013071</sourceObjName>
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:05 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<referredTableLongName>RESTSCOTT.MANGA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3528885F-95E6-7801-8478-12FBF7CEEC67</referredTableID>
+<keyObject>18999515-173A-ABCE-6334-E520CD539C51</keyObject>
+<referredKeyID>18999515-173A-ABCE-6334-E520CD539C51</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

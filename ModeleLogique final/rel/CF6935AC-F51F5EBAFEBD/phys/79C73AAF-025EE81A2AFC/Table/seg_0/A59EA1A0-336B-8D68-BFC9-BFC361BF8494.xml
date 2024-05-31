@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="AUTEUR" directorySegmentName="seg_0" id="A59EA1A0-336B-8D68-BFC9-BFC361BF8494">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<schemaObject>F649FD61-2C9A-B0E4-DC37-1B0C853B7395</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BC94923D-73BD-4BAA-76ED-E9285D600679</segment>
+<tableSpace>3B24C378-31BF-8311-A2EF-B7D3602ACFF5</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOM" id="18091AA7-ED29-6B13-BD90-D6E48D9D9F86">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRENOM" id="1F4F752C-77AB-99D3-89CB-FE554F1091CA">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="C9BE04D1-9C30-4B89-5E7E-2A306AA25379">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="AUTEUR_PK" id="0FE84650-8435-F547-57C7-9BF73F0FE7D4">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:04 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<schemaObject>F649FD61-2C9A-B0E4-DC37-1B0C853B7395</schemaObject>
+<segment>76D23DAF-19B1-D4CF-A5DC-F5CE4A86484C</segment>
+<tableSpace>3B24C378-31BF-8311-A2EF-B7D3602ACFF5</tableSpace>
+<indexSegment>76D23DAF-19B1-D4CF-A5DC-F5CE4A86484C</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

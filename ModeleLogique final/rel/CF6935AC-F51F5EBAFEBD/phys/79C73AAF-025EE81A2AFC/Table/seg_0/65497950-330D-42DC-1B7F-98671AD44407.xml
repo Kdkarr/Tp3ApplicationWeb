@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ETUDIANT" directorySegmentName="seg_0" id="65497950-330D-42DC-1B7F-98671AD44407">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<schemaObject>F649FD61-2C9A-B0E4-DC37-1B0C853B7395</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BC94923D-73BD-4BAA-76ED-E9285D600679</segment>
+<tableSpace>3B24C378-31BF-8311-A2EF-B7D3602ACFF5</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ETUDIANTID" id="10DBE436-501C-C6AC-D0EF-E811F86D5736">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DA" id="4F00A216-EB4D-B2F2-D90C-30377EABB405">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRENOM" id="58119756-93FD-1B9F-B229-0FBDDA13ED78">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOM" id="6127109A-F70B-1BDD-E16A-CDB05FBB27CD">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:03 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ETUDIANT_PK" id="86B6959D-A3E3-28CD-D0B5-B5B104AE19EB">
+<createdBy>Stephane</createdBy>
+<createdTime>2024-05-31 01:06:04 UTC</createdTime>
+<ownerDesignName>ModeleLogicfinal</ownerDesignName>
+<schemaObject>F649FD61-2C9A-B0E4-DC37-1B0C853B7395</schemaObject>
+<segment>76D23DAF-19B1-D4CF-A5DC-F5CE4A86484C</segment>
+<tableSpace>3B24C378-31BF-8311-A2EF-B7D3602ACFF5</tableSpace>
+<indexSegment>76D23DAF-19B1-D4CF-A5DC-F5CE4A86484C</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>
